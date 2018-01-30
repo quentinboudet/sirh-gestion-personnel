@@ -1,0 +1,20 @@
+.custom-select.is-invalid~.invalid-feedback, .custom-select.is-invalid~.invalid-tooltip, .form-control.is-invalid~.invalid-feedback, .form-control.is-invalid~.invalid-tooltip, .was-validated .custom-select:invalid~.invalid-feedback, .was-validated .custom-select:invalid~.invalid-tooltip, .was-validated .form-control:invalid~.invalid-feedback, .was-validated .form-control:invalid~.invalid-tooltip {
+  color: #dc3545;
+}
+.invalid-feedback {
+  display: block;
+  color: transparent;
+}
+
+#confirm-creer{
+  display: none;
+  position: fixed;
+  top: 15%;
+  margin-top: auto;
+  margin-bottom: auto;
+  border: 2px solid #555;
+  box-shadow: 0px 0px 20px black;
+}
+#confirm-creer.show{
+  display: block;
+}
